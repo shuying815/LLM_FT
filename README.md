@@ -77,7 +77,8 @@ DPO优化方法消融实验结果。
 Adaptet 微调 reduction_dim超参实验。
 
 
-<img src=".\results\hyperparameter\reduction_dim.png" alt="reduction_dim" width="500" height="749" />
+<img src=".\results\hyperparameter\reduction_dim.png" alt="reduction_dim" width="400" height="749" />
+
 
 
 
