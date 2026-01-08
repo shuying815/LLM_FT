@@ -64,11 +64,11 @@ bash scripts/test.sh lora checkpoint_path
 
 训练曲线可视化。
 
-<img src=".\results\train.png" alt="train" />
+<img src=".\results\train.png" alt="train" width="900" height="749" />
 
 微调实验结果对比（灰色表示基于Qwen2.5-7B模型的微调，其余表示基于Qwen2.5-1.5B模型的微调）。
 
-<img src=".\results\accuracy\contrast_result.png" alt="contrast_result" width="900" height="749" />
+<img src=".\results\accuracy\contrast_result.png" alt="contrast_result" width="400" height="749" />
 
 DPO优化方法消融实验结果。
 
@@ -78,6 +78,7 @@ Adaptet 微调 reduction_dim超参实验。
 
 
 <img src=".\results\hyperparameter\reduction_dim.png" alt="reduction_dim" width="500" height="749" />
+
 
 
 
