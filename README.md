@@ -54,7 +54,7 @@ bash scripts/run.sh lora
 
 ### 测试
 
-微调完成后模型会自动在验证集上执行测试，如果需要使用微调好的权重直接执行测试，命令如下，将`checkpoint\_path`更换成权重文件路径即可。测试会输出在数据集上的预测准确的样本数量和准确率，同时会生成每条数据模型对应的输出构成的文件`result.jsonl`。
+微调完成后模型会自动在验证集上执行测试，如果需要使用微调好的权重直接执行测试，命令如下，将`checkpoint\_path`更换成权重文件路径即可。测试会输出在数据集上的预测准确的样本数量和准确率，同时会生成每条数据模型对应的输出构成的文件`result.jsonl`。`ckpt`文件夹下存放了我们训练好的权重文件。
 
 ```bash
 bash scripts/test.sh lora checkpoint_path
@@ -78,6 +78,7 @@ Adaptet 微调 reduction_dim超参实验。
 
 
 <img src=".\results\hyperparameter\reduction_dim.png" alt="reduction_dim" width="400" height="749" />
+
 
 
 
